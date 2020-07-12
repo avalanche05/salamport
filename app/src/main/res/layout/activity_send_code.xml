@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activities.SendCodeActivity">
+
+    <EditText
+        android:id="@+id/codeField"
+        android:layout_width="83dp"
+        android:layout_height="55dp"
+        android:background="@drawable/fields"
+        android:ems="10"
+        android:hint="@string/code"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="218dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/insert_code"
+        android:textColor="@color/colorText"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/codeField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

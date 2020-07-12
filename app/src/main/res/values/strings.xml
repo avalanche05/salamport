@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Salamport+</string>
+    <string name="send_message_error">Ошибка отправки сообщения</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="save">Сохранить</string>
+    <string name="email">Электронная почта</string>
+    <string name="code">- - - - - -</string>
+    <string name="insert_code">Введите 6-значный код, отправленный на почту </string>
+    <string name="messages">Сообщения</string>
+    <string name="peoples">Люди</string>
+    <string name="send">отправить</string>
+    <string name="next">далее</string>
+</resources>
